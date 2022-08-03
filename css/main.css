@@ -163,7 +163,7 @@ body{
 }
 
 .hero{
-  padding-top: 208px;
+  padding-top: 288px;
   padding-bottom: 220px;
   background-image: url("../images/hero-bg.jpg");
   background-repeat: no-repeat;
@@ -171,8 +171,6 @@ body{
   width: 100%;
   min-width: 320px;
 }
-
-
 
 .hero__box{
   text-align: center;
