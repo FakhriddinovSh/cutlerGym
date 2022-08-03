@@ -108,7 +108,7 @@ body{
 .site-header__nav{
   position: absolute;
   display: none;
-  top: 120%;
+  top: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.8075) 100%);
   backdrop-filter: blur(1px);
   width: 100%;
@@ -139,7 +139,7 @@ body{
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding: 30px 20px;
+  padding: 61px 20px;
 }
 
 .site-header__item{
@@ -209,7 +209,6 @@ body{
 }
 
 .hero__social{
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -236,17 +235,4 @@ body{
 
 .hero__social__links > a:active{
   color: #F7931E;
-}
-
-
-.hero__social::before{
-  position: absolute;
-  content: "";
-  background-image: url("../images/hero-before.svg"), url("../images/hero-before-white.svg");
-  background-repeat: no-repeat;
-  background-position-y: calc(50% + 280px), calc(50% + 315px);
-  width: 75px;
-  height: 100%;
-  left: 0;
-  bottom: 47px;
 }
