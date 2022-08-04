@@ -167,7 +167,7 @@ body{
 .hero{
   padding-top: 141px;
   padding-bottom: 220px;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/hero-bg-2");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -280,6 +280,7 @@ body{
 .changing__description-box{
   width: 100%;
   min-width: 290px;
+  text-align: center;
   margin: 0 auto;
   padding-left: 20px;
 }
@@ -595,8 +596,8 @@ body{
     margin: 0 auto;
     margin-bottom: 23px;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 68px;
+    font-size: 39px;
+    line-height: 56px;
     text-align: center;
     color: #FFFFFF;
   } 
