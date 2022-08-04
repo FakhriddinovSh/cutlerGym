@@ -96,7 +96,7 @@ body{
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .site-header__logo{
@@ -163,7 +163,7 @@ body{
 }
 
 .hero{
-  padding-top: 288px;
+  padding-top: 141px;
   padding-bottom: 220px;
   background-image: url("../images/hero-bg.jpg");
   background-repeat: no-repeat;
