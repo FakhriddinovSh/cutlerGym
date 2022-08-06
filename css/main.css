@@ -8,6 +8,7 @@
   /* --main-line-height : 1.5; */
 }
 
+
 /* GENERAL */
 *,
 *::before,
@@ -464,6 +465,7 @@ body{
 
 .price__heading__item-second{
   width: 50%;
+  margin-top: 27px;
 }
 
 
@@ -480,8 +482,16 @@ body{
 }
 
 .price__item{
-  display: block;
+  display: none;
   margin-top: 60px;
+}
+
+.price__item--active{
+  display: block;
+}
+
+.price__item__two--active{
+  display: block;
 }
 
 
@@ -517,6 +527,12 @@ body{
   background-color: transparent;
   color: #F7931E;
   border: 1px solid #F7931E;
+}
+
+.price__button:hover{
+  background-color: #F7931E;
+  color: #000;
+  border-color: transparent;
 }
 
 .price__button:active{
