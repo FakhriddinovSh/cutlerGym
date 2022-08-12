@@ -342,9 +342,10 @@ body{
 
 .images__box > img{
   margin-bottom: 30px;
-  width: 90%;
-  height: 500px;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .images__box > img:last-child{
@@ -551,6 +552,14 @@ ins{
   float: right;
 }
 
+.address__location-wrapper{
+  width: 100%;
+  min-width: 320px;
+}
+.address__location{
+  width: 108%;
+  margin-left: -20px;
+}
 
 @media only screen and (min-width: 1120px){
   .gallery__box{
